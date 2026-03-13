@@ -1,15 +1,16 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
     // Переменная для хранения имени пользователя
     std::string name;
-    
+
     // Запрос имени у пользователя
     std::cout << "Enter your name: ";
     std::cin >> name;
-    
+
     // Вывод приветствия
     std::cout << "Hello world from " << name << std::endl;
     return 0;
